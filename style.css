@@ -12,25 +12,46 @@ h1, h2, h3 {
     color: #59D8E5;
 }
 
+h1 {
+    font-family: 'Megrim', cursive;
+    font-size: 3.5em;
+}
+
+h2, h3, a, p, li {
+    font-family: 'Roboto', sans-serif;
+}
+
+h2 {
+    font-size: 2em;
+}
+
+h3 {
+    font-size: 1em;
+}
+
 li, a, p {
     color: #D5FBFF;
+    font-size: 1em;
 }
 
 nav {
-    display: inline-flex;
+    background-color: #647678;
+    border-radius: 5px 35px 15px 5px;
+    margin: 0 auto;
+    margin-bottom: 10px;
+    padding-top: 10px;
+    padding-bottom: 10px;
 }
 
 nav a {
-    margin: 0 auto;
-    padding: 10px;
-    background-color: #647678;
+    margin: 20px;
 }
 
 div.skill {
     float:  left;
-    width: 19%;
-    margin-left: 0.5%;
-    margin-right: 0.5%;
+    width: 18%;
+    margin-left: 1%;
+    margin-right: 1%;
 }
 
 div.skill img {
@@ -43,4 +64,7 @@ div.skill img {
 #overview {
     background-color: #647678;
     height: 100%;
+    overflow: auto;
+    border-radius: 5px 35px 15px 5px;
+    margin-bottom: 10px;
 }
