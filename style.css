@@ -69,3 +69,9 @@ div.skill img {
     margin-bottom: 10px;
     padding: 5px;
 }
+
+ul.radio {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+}
