@@ -49,9 +49,9 @@ nav a {
 
 div.skill {
     float:  left;
-    width: 18%;
-    margin-left: 1%;
-    margin-right: 1%;
+    width: 15%;
+    margin-left: 2.5%;
+    margin-right: 2.5%;
 }
 
 div.skill img {
@@ -67,4 +67,5 @@ div.skill img {
     overflow: auto;
     border-radius: 5px 35px 15px 5px;
     margin-bottom: 10px;
+    padding: 5px;
 }
