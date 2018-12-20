@@ -4,21 +4,38 @@ body {
     margin: auto;
 }
 
-h1, h2, h3 {
-    color: #59D8E5;
+h1, h2, h3, p, a {
+    text-align: center;
 }
 
-h1, h2 {
-    text-align: center;
+h1, h2, h3 {
+    color: #59D8E5;
 }
 
 li, a, p {
     color: #D5FBFF;
 }
 
+nav {
+    display: inline-block;
+}
+
 nav a {
     margin: 0 auto;
     padding: 10px;
-    float: left;
     background-color: #647678;
+}
+
+div.skill {
+    float:  left;
+    width: 19%;
+    margin-left: auto;
+    margin-right: 1%;
+}
+
+div.skill img {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 50%;
 }
