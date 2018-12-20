@@ -1,11 +1,24 @@
 body {
+    max-width: 1600px;
     background-color: #2F3738;
+    margin: auto;
 }
 
 h1, h2, h3 {
     color: #59D8E5;
 }
 
+h1, h2 {
+    text-align: center;
+}
+
 li, a, p {
     color: #D5FBFF;
+}
+
+nav a {
+    margin: 0 auto;
+    padding: 10px;
+    float: left;
+    background-color: #647678;
 }
