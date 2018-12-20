@@ -39,3 +39,8 @@ div.skill img {
     margin-right: auto;
     width: 50%;
 }
+
+#overview {
+    background-color: #647678;
+    height: 100%;
+}
