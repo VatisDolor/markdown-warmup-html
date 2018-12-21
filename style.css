@@ -15,7 +15,7 @@ li, a, p {
 
 h1 {
     font-family: 'Megrim', cursive;
-    font-size: 3.5em;
+    font-size: 3em;
 }
 
 h2, h3, a, p, li {
@@ -23,7 +23,7 @@ h2, h3, a, p, li {
 }
 
 h2 {
-    font-size: 2em;
+    font-size: 1.5em;
 }
 
 h3, li, a, p {
@@ -34,45 +34,58 @@ p {
     text-align: left;
 }
 
-img {
+nav, .radio {
+    text-align: center;
+}
+
+nav a {
+    margin: 10px;
+}
+
+.radio li {
+    display: inline-flex;
+}
+
+#overview {
+    background-color: #647678;
+    overflow: auto;
+    border-radius: 10px;
+    margin-bottom: 10px;
+    padding-bottom: 5px;
+}
+
+#overview div {
+    display: inline-table;
+    width: 14%;
+    margin-left: 2%;
+    margin-right: 2%;
+}
+
+#overview img {
     display: inline-block;
     margin-left: auto;
     margin-right: auto;
     width: 50%;
 }
 
-nav, .radio {
-    min-width: 100px;
-    text-align: center;
-}
-
-nav a {
-    margin: 20px;
-}
-
-.radio li {
-    display: inline-block;
-}
-
-#overview {
-    background-color: #647678;
-    height: 100%;
-    overflow: auto;
-    border-radius: 5px 35px 15px 5px;
-    margin-bottom: 10px;
-    padding: 5px;
-}
-
-#overview div {
-    display: inline-table;
-    width: 14%;
-    margin-left: 2.5%;
-    margin-right: 2.5%;
-}
-
 #overview div.welcome {
     display: inline-table;
     width: 40%;
-    margin-left: 5%;
-    margin-right: 5%;
+    margin-left: 2%;
+    margin-right: 2%;
+}
+
+#overview div.beacon {
+    display: inline-block;
+    width: 80%;
+    margin-left: 2%;
+    margin-right: 2%;
+}
+
+.beacon p, .about p {
+    text-align: center;
+}
+
+.about ul li {
+    text-align: left;
 }
