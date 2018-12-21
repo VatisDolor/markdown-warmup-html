@@ -44,7 +44,10 @@ nav {
 }
 
 nav a {
-    margin: 20px;
+    padding-right: 5px;
+    border-right-color: #59D8E5;
+    border-right-style: solid;
+    border-right-width: 2px;
 }
 
 div.skill {
@@ -71,7 +74,10 @@ div.skill img {
 }
 
 ul.radio {
-    list-style-type: none;
-    margin: 0;
-    padding: 0;
+    min-width: 100px;
+    text-align: center;
+}
+
+ul.radio li {
+    display: inline-block;
 }
