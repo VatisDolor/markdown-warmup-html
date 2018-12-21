@@ -1,15 +1,17 @@
 body {
     max-width: 1600px;
+    max-height: 1000px;
     background-color: #2F3738;
-    margin: auto;
-}
-
-h1, h2, h3, p, a {
+    margin: 0 auto;
     text-align: center;
 }
 
 h1, h2, h3 {
     color: #59D8E5;
+}
+
+li, a, p {
+    color: #D5FBFF;
 }
 
 h1 {
@@ -25,43 +27,45 @@ h2 {
     font-size: 2em;
 }
 
-h3 {
+h3, li, a, p {
     font-size: 1em;
 }
 
-li, a, p {
-    color: #D5FBFF;
-    font-size: 1em;
-}
-
-nav {
-    background-color: #647678;
-    border-radius: 5px 35px 15px 5px;
-    margin: 0 auto;
-    margin-bottom: 10px;
-    padding-top: 10px;
-    padding-bottom: 10px;
+nav, .radio {
+    min-width: 100px;
+    text-align: center;
 }
 
 nav a {
-    padding-right: 5px;
-    border-right-color: #59D8E5;
-    border-right-style: solid;
-    border-right-width: 2px;
+    margin: 20px;
 }
 
-div.skill {
+.radio li {
+    display: inline-block;
+}
+
+.skill {
     float:  left;
     width: 15%;
     margin-left: 2.5%;
     margin-right: 2.5%;
 }
 
-div.skill img {
-    display: block;
+.skill img {
+    display: inline-block;
     margin-left: auto;
     margin-right: auto;
     width: 50%;
+}
+
+.skill-combined {
+    width: 100%;
+    display: inline-block;
+}
+
+.welcome {
+    padding-left: 50px;
+    padding-right: 50px;
 }
 
 #overview {
@@ -71,13 +75,4 @@ div.skill img {
     border-radius: 5px 35px 15px 5px;
     margin-bottom: 10px;
     padding: 5px;
-}
-
-ul.radio {
-    min-width: 100px;
-    text-align: center;
-}
-
-ul.radio li {
-    display: inline-block;
 }
